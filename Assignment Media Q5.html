@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body style="background-color: black;color: azure ;">
+     <h1>Sign up Form</h1>
+<form >
+     <label for="First Name">  First name
+          <input type="text" name="First name" placeholder="Name" id="First Name" required minlength=4 max = 20/>
+     </label> 
+     <br>  
+     <label for="Last Name"> Last Name 
+          <input type="text" name="Last name" placeholder="Last Name" id="Last Name" required minlength=5 maxlength=20 />
+     </label> 
+     <br> 
+     <label for="email"> Email 
+          <input type="email" name="email" placeholder="dhr@gakl.com" id="email" required />   
+     </label>
+     <br>
+     <label for="Password"> Password
+    <input type="password" name="Password" placeholder="*********" id="Password" required min= 10/>
+     </label>
+     <br>
+     <label for="Confirm Password"> Confirm Password
+   <input type="password" name="Confirm Password" placeholder="Confirm Password" id="Confirm Password" required min= 10 />
+     </label>
+     <br>
+     <label for="Age"> Age:
+  <input type="number" name="age" placeholder="45"  id="Age" required minlength="0" maxlength="150" />
+</label> 
+<br> 
+   <label for="Gender"> Gender:
+     <input type="radio" name="gender" value="male" id="male" checked />
+      <label for="Male"> Male</label>
+      <input type="radio" name="gender" id="Female" value="Female" name="Female" checked />
+         <label for="Female"> Female</label>
+         <input type="radio" name="gender" id="Other" value="Other" checked />
+       <label for="Other"> Other</label> 
+       <br>
+       <label for="Terms"> terms:
+          <input type="checkbox" name="" id="Terms" required /> 
+          I agree to terms and condition
+       </label> 
+       <br>
+     </label> 
+ <button type="submit"> Register</button>
+</form>
+</body>
+</html>
